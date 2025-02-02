@@ -16,7 +16,7 @@ class ModelType(StrEnum):
     """Enum for AI model types"""
     BASIC = 'CHEAP'
     ADVANCED = 'EXPENSIVE'
-
+#test
 class ErrorMessages:
     """Error message constants"""
     MAX_NESTED_CALLS = 'Complex medical inquiry detected - please speak with a healthcare provider directly'
