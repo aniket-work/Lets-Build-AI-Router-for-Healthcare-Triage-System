@@ -2,15 +2,15 @@
 
 Practical AI Implementation in Healthcare - From Concept to Code
 
-TL;DR
+# TL;DR
 
-A hands-on guide showing how to build an AI-powered warehouse management system using Python and modern AI technologies. The system helps businesses analyze inventory data, predict stock needs, and make smarter warehouse decisions through natural language interactions.
+Built a dual-model AI triage system for healthcare that smartly routes patient queries — simple questions go to a basic AI model, complex medical concerns go to an advanced model. Added tools for symptoms checking, appointment scheduling, and wait time estimates. Everything’s configurable and safety-focused.
 
-Full Article : [https://medium.com/@learn-simplified/practical-guide-my-building-of-ai-warehouse-manager-35a278e0762d
+Full Article : [https://medium.com/@learn-simplified/lets-build-ai-router-for-healthcare-triage-system-1f100b19ec2f
 
 
-Tech stack
-# Let's Build AI Router for Healthcare Triage System
+# Tech stack
+## Let's Build AI Router for Healthcare Triage System
 
 ## Frontend Technologies
 | Category | Technology | Version | Purpose |
@@ -35,14 +35,7 @@ Tech stack
 
 
 ## Introduction
-In today’s fast-paced business environment, the difference between success and failure often comes down to how quickly and accurately you can make decisions. While artificial intelligence might sound futuristic, this article demonstrates a practical, implementable way to bring AI into everyday warehouse operations. Through our example warehouse system, you’ll see how AI can:
-
- - Transform complex data analysis into simple conversations
-- Help predict inventory needs before shortages occur
-- Reduce the time spent training new staff on complex systems
-- Enable faster, more accurate decision-making
-
-Even though our example uses a fictional warehouse, the principles and implementation details apply to real-world businesses of any size looking to modernize their operations.
+Remember the last time you needed medical help but weren’t sure if it was urgent? That’s exactly why I built this AI triage system. After reading on various healthcare providers, one challenge kept coming up: efficiently handling patient inquiries while ensuring urgent cases get immediate attention..
 
 ## Architecture
 
@@ -50,6 +43,19 @@ Even though our example uses a fictional warehouse, the principles and implement
 
 
 ![Design Diagram](design_docs/design.png)
+
+## What’s This Article About?
+Think of this system as a smart medical receptionist powered by AI. The core innovation is the AI router that decides which of two AI models should handle each patient query. Simple questions about appointments or wait times go to a lightweight model, while complex medical questions get routed to a more powerful model. The system includes practical tools for checking symptoms, scheduling appointments, and estimating wait times — all while prioritizing patient safety.
+
+
+## Why Read It?
+AI isn’t just buzzword anymore — it’s transforming how businesses operate. This article shows you a practical implementation in healthcare. Through our example healthcare provider, you’ll see how:
+
+ - AI can handle routine tasks while escalating urgent cases
+ - Different AI models can work together based on task complexity
+ - Real-world business tools can integrate with AI systems
+ - Safety and error handling work in critical applications
+ - Configuration management makes systems adaptable
 
 
 # Tutorial: Let's Build AI Router for Healthcare Triage System
