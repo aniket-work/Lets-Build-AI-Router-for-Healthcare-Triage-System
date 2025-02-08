@@ -25,7 +25,7 @@ class AppointmentType(str, Enum):
 
 
 # Environment and configuration
-groq_api_key = os.getenv('GROQ_API_KEY', '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')
+groq_api_key = os.getenv('GROQ_API_KEY', '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')
 groq_model = os.getenv('GROQ_MODEL', 'mixtral-8x7b-32768')
 ollama_model = os.getenv('OLLAMA_MODEL', 'llama3.2:3b')
 timezone = pytz.timezone('America/New_York')

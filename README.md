@@ -1,6 +1,6 @@
 # Let's Build AI Router for Healthcare Triage System
 
-Warehousing Meets AI: A No-Nonsense Guide to Smarter Inventory Management
+Practical AI Implementation in Healthcare - From Concept to Code
 
 TL;DR
 
@@ -10,15 +10,27 @@ Full Article : [https://medium.com/@learn-simplified/practical-guide-my-building
 
 
 Tech stack
-# AI Warehouse Manager Technical Stack
+# Let's Build AI Router for Healthcare Triage System
 
 ## Frontend Technologies
-| Technology | Purpose | Implementation Details |
-|------------|---------|------------------------|
-| Streamlit | Web Framework | Powers the interactive web interface with built-in components and state management |
-| Custom CSS | Styling | Dark theme implementation with professional color schemes and responsive design |
-| Session State | User Management | UUID-based session tracking and state persistence |
-| Wide Layout | UI/UX | Responsive design with collapsible sidebar and multi-column layout |
+| Category | Technology | Version | Purpose |
+|----------|------------|----------|----------|
+| **Core Framework** | Python | 3.x | Base programming language |
+| **Web Interface** | Streamlit | >= 1.31.0 | Interactive web UI for healthcare triage |
+| **AI Models** | Langchain-core | >= 0.1.27 | Base AI orchestration |
+| | Langchain-groq | >= 0.0.8 | Advanced medical query handling |
+| | Langchain-community | >= 0.0.24 | Community LLM integrations |
+| | Ollama | llama3.2:3b | Basic query processing |
+| | Groq | mixtral-8x7b-32768 | Complex medical query processing |
+| **Data Handling** | PyYAML | Built-in | Configuration management |
+| | JSON | Built-in | Data structuring & API responses |
+| | Python-dotenv | >= 1.0.1 | Environment variable management |
+| **Type System** | Pydantic | >= 2.6.1 | Data validation |
+| | Typing-extensions | >= 4.9.0 | Enhanced type hints |
+| **Time Management** | Pytz | >= 2024.1 | Timezone handling |
+| **Development Tools** | Mock Database | Custom | Simulated healthcare data storage |
+| **Configuration** | YAML | N/A | Complex system settings |
+| | JSON | N/A | API configurations |
 
 
 
@@ -34,13 +46,13 @@ Even though our example uses a fictional warehouse, the principles and implement
 
 ## Architecture
 
-### My Building of AI Warehouse Manager
+### Let's Build AI Router for Healthcare Triage System
 
 
-![Design Diagram](design_docs/design.jpg)
+![Design Diagram](design_docs/design.png)
 
 
-# Tutorial: My Building of AI Warehouse Manager
+# Tutorial: Let's Build AI Router for Healthcare Triage System
 
 ## Prerequisites
 - Python installed on your system.
@@ -70,7 +82,7 @@ Even though our example uses a fictional warehouse, the principles and implement
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  "My Building of AI Warehouse Manager"
+Follow these steps to set up and run the  "Let's Build AI Router for Healthcare Triage System"
 
 1. Navigate to your project directory:
    ```
@@ -85,7 +97,7 @@ Follow these steps to set up and run the  "My Building of AI Warehouse Manager"
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Hands-On Guide: My Building of AI Warehouse Manager
+## Run - Hands-On Guide: Let's Build AI Router for Healthcare Triage System
 
    ```bash 
      
